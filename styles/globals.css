@@ -1,6 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
 /* Colors & font-sizes */
 :root {
-	--clr-bg: #414a4c;
+	--clr-bg: #242424;
+	--clr-bg-gradient: linear-gradient(to bottom, lightblue, white);
+	/* --clr-bg:#414a4c; */
+
+	--clr-text: #333;
+	--clr-subtext: #414141;
+	--clr-text-white: #eee;
 
 	--clr-neutral: #444;
 	--clr-neutral-light: #444;
@@ -8,13 +16,12 @@
 	--clr-accent: #eee;
 	--clr-accent-light: #fff;
 
-	--ff-primary: "Be Vietnam Pro", sans-serif;
+	--ff-doodle: "Press Start 2P", cursive;
+	--ff-primary: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+	--ff-secondary: "Be Vietnam Pro", sans-serif;
+
 	--ff-body: var(--ff-primary);
 	--ff-heading: var(--ff-primary);
-
-	--fw-regular: 400;
-	--fw-semi-bold: 500;
-	--fw-bold: 700;
 
 	--fs-300: 0.8125rem;
 	--fs-400: 0.875rem;

@@ -4,16 +4,8 @@
 *,
 *::before,
 *::after {
-	margin: 0;
 	box-sizing: border-box;
 }
-
-/* Remove default margin */
-* {
-	margin: 0;
-	/* font:inherit;     */
-}
-
 /* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
 ul[role="list"],
 ol[role="list"] {
@@ -33,6 +25,8 @@ body {
 
 /* Set core body defaults */
 body {
+	margin: 0;
+	padding: 0;
 	-webkit-font-smoothing: antialiased;
 	text-rendering: optimizeSpeed;
 	line-height: 1.5;

@@ -1,13 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
-  </head>
-  <body>
-    <div id="app"></div>
-    <script type="module" src="/main.js"></script>
-  </body>
+	<head>
+		<meta charset="UTF-8" />
+		<link rel="icon" type="image/svg+xml" href="/vite.svg" />
+		<link rel="stylesheet" href="style.css" />
+		<ta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Doodle Jump js</title>
+	</head>
+	<body>
+		<!-- <span class="game-title">Doodle Jump</span> -->
+		<div class="end-game-screen">
+			<h1>Game Over</h1>
+			<p>Score : <span class="end-game-score"> </span></p>
+			<p>
+				High score :
+				<span class="game-highscore"></span>
+			</p>
+			<button class="retry">Retry</button>
+		</div>
+		<canvas class="game-canvas" width="700" height="800"></canvas>
+	</body>
+	<script type="module" src="/scripts/main.js"></script>
 </html>
